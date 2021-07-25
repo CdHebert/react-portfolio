@@ -29,7 +29,7 @@ function App() {
       case 'Contact':
         return <Contact />;
       default:
-        return <Home />, <Footer />;
+        return <Home />;
     }
   };
 
