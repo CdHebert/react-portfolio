@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {aboutMe} from './data'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/pages/Home';
@@ -21,7 +22,8 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'About':
-        return <About />;
+        return <About
+         aboutMe={aboutMe} />;
       case 'Resume':
         return <Resume />;
       case 'Works':
@@ -35,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-    {currentPage === 'Home' && (
+    {currentPage === 'Home' ?
       <header className="App-header">
         <div>
           {/* Pass the state value and the setter as props to NavTabs */}
@@ -44,8 +46,9 @@ function App() {
           <div>{renderPage(currentPage)}</div>
         </div>
 
-      </header> )}
-      <section className="App-header">
+      </header> 
+      
+      :<section className="App-header">
         <div>
           {/* Pass the state value and the setter as props to NavTabs */}
           <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
@@ -53,7 +56,7 @@ function App() {
           <div>{renderPage(currentPage)}</div>
         </div>
 
-      </section>
+      </section>}
         </div> 
   );
 }
