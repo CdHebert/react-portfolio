@@ -53,7 +53,7 @@ export const portfolio = {
         {
           title: "Benefactor - A Gift List application where you can make a list for every occation",
           category: "Full Stack application using Handlebars, Express, HTML, CSS and JavaScript",
-          image: "benefactor.png",
+          image: "notes.png",
           url: "https://floating-gorge-84080.herokuapp.com/" 
         },
         {
