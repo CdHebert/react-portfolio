@@ -11,13 +11,6 @@ export const aboutMe = {
     contactmessage: "Here is where you should write your message to readers to have them get in contact with you.",
     email: "youremailhere@gmail.com",
     phone: "555-555-5555",
-
-    street: "(Your Street)",
-    city: "(Your City)",
-    state: "(Your State)",
-    zip: "(Your Zip/Postal Code)",
-
-
     website: "http://www.timbakerdev.com",
     resumedownload: "http://timbakerdev.com",
 
@@ -54,35 +47,50 @@ export const socialMedia = {
     ]
 }
 
-export const skills = {
-    skills: [
+
+export const portfolio = {
+    projects: [
         {
-            name: "Git",
-            level: "60%"
+          title: "Benefactor - A Gift List application where you can make a list for every occation",
+          category: "Full Stack application using Handlebars, Express, HTML, CSS and JavaScript",
+          image: "benefactor.png",
+          url: "https://floating-gorge-84080.herokuapp.com/" 
         },
         {
-            name: "Illustrator",
-            level: "55%"
+          title: "Fury Fighting Gear",
+          category: "(offline now) A fighting gear company I started",
+          image: "header-background.jpg",
+          url: "http://www.timbakerdev.com"
         },
         {
-            name: "ReactJs",
-            level: "50%"
+          title: "Original Thai Food",
+          category: "Website I built for a restaurant I like in Thailand",
+          image: "original-thai-food.jpg",
+          url: "http://www.timbakerdev.com/originalthaifood.github.io"
         },
         {
-            name: "CSS",
-            level: "90%"
+          title: "aResume Website",
+          category: "A React based resume website template",
+          image: "resume-website.jpg",
+          url: "http://www.timbakerdev.com"
         },
         {
-            name: "HTML5",
-            level: "80%"
+          title: "Resume dWebsite",
+          category: "A React based resume website template",
+          image: "resume-website.jpg",
+          url: "http://www.timbakerdev.com"
         },
         {
-            name: "VueJs",
-            level: "50%"
+          title: "Resume Website",
+          category: "A React based resume website template",
+          image: "resume-website.jpg",
+          url: "http://www.timbakerdev.com"
         },
         {
-            name: "MongoDB",
-            level: "80%"
+          title: "Smirkspace",
+          category: "(MVP Only) A React and Meteor based chat University project.",
+          image: "smirkspace.jpg",
+          url: "http://www.smirkspace.com"
         }
-    ]
+      ]
 }

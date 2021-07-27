@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
-import {aboutMe} from './data'
+import {
+  aboutMe,
+  portfolio,
+  socialMedia
+} from './data'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/pages/Home';
@@ -22,12 +26,11 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'About':
-        return <About
-         aboutMe={aboutMe} />;
+        return <About aboutMe={aboutMe} />;
       case 'Resume':
         return <Resume />;
       case 'Works':
-        return <Works />;
+        return <Works portfolio={portfolio} />;
       case 'Contact':
         return <Contact />;
       default:
@@ -35,29 +38,37 @@ function App() {
     }
   };
 
+
   return (
-    <div className="App">
-    {currentPage === 'Home' ?
-      <header className="App-header">
-        <div>
-          {/* Pass the state value and the setter as props to NavTabs */}
-          <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-          {/* Call the renderPage function passing in the currentPage */}
-          <div>{renderPage(currentPage)}</div>
-        </div>
+    <section>
 
-      </header> 
-      
-      :<section className="App-header">
-        <div>
-          {/* Pass the state value and the setter as props to NavTabs */}
-          <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-          {/* Call the renderPage function passing in the currentPage */}
-          <div>{renderPage(currentPage)}</div>
-        </div>
+      <div className="App">
+        {currentPage === 'Home'
+         ? <header className="App-header">
+            <div>
+              {/* Pass the state value and the setter as props to NavTabs */}
+              <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+              {/* Call the renderPage function passing in the currentPage */}
+              <div>{renderPage(currentPage)}</div>
+            </div>
+            {/* <hr /> */}
+           
+          </header>
 
-      </section>}
-        </div> 
+          : <section className="App-header background-img">
+            <div>
+              {/* Pass the state value and the setter as props to NavTabs */}
+              <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+              {/* Call the renderPage function passing in the currentPage */}
+              <div>{renderPage(currentPage)}</div>
+            </div>
+            {/* <hr /> */}
+           
+          </section>}
+      </div>
+      <Footer
+              socialMedia={socialMedia} />
+    </section>
   );
 }
 

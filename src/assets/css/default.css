@@ -60,7 +60,8 @@ time, mark, audio, video {
 
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
-   display: block;
+   display: flex;
+   flex-direction: column;
 }
 
 audio,
@@ -128,13 +129,13 @@ table {
 
 /*  1. Basic  ------------------------------------------------------- */
 
-*,
+/* *,
 *:before,
-*:after {
-   -moz-box-sizing: border-box;
+*:after { */
+   /* -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
-}
+} */
 
 html {
    font-size: 62.5%;
@@ -158,7 +159,7 @@ body {
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-   color: #313131;
+   color: #ffffff;
 	font-family: 'opensans-bold', sans-serif;
    font-weight: normal;
 }
@@ -567,7 +568,7 @@ label,
 legend {
    font: 16px/24px 'opensans-bold', sans-serif;
 	margin: 12px 0;
-   color: #3d4145;
+   color: #ffffff;
    display: block;
 }
 label span,

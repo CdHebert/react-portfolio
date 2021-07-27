@@ -15,9 +15,7 @@ const About = ({ aboutMe }) => (
               <h2>Contact Details</h2>
               <p className="address">
            <span>{aboutMe.name}</span><br />
-           <span>{aboutMe.street}<br />
-                 {aboutMe.city} {aboutMe.state}, {aboutMe.zip}
-               </span><br />
+           <br />
            <span>{aboutMe.phone}</span><br />
                  <span>{aboutMe.email}</span>
          </p>

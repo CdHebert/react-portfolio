@@ -145,15 +145,10 @@
 
    /* hide menu panel */
    #nav-wrap ul#nav {
-      height: auto;
-		display: none;
-      clear: both;
-      width: auto; 
-      float: right;     
-
-      position: relative;
-      top: 12px;
-      right: 0;
+      display: flex;
+      letter-spacing: 0px;
+      margin: 0;
+      font-size: small;
    }
 
    /* display menu panels */
@@ -169,7 +164,7 @@
       display: block;
       height: auto;      
       margin: 0 auto; 
-      padding: 0 4%;           
+      padding: 0;           
       text-align: left;
       border-bottom: 1px solid #2D2E34;
       border-bottom-style: dotted; 

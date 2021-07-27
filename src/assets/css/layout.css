@@ -24,14 +24,26 @@
 
 body { background: #0f0f0f; }
 
+.background-img{
+   position: relative;
+   
+
+   width: 100%;
+   background: #161415 url(../images/testimonials-bg.jpg) no-repeat center center;
+   background-size: cover !important;
+  -webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+ }
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
 header {
    position: relative;
-   height: 800px;
-   min-height: 500px;
+  
+
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat center center;
    background-size: cover !important;
@@ -58,17 +70,17 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
+   font: 90px 'opensans-bold', sans-serif;
+   color: #f0f0f0;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #F06000;
+   font: 28px 'librebaskerville-regular', serif;
+   color: #f0f0f0;
    margin: 0 auto;
-   width: 70%;
+   width: 100%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
@@ -187,7 +199,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+  
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -207,8 +219,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 1200px;
+   height: 120%;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -417,9 +429,12 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+  
    padding-top: 90px;
    padding-bottom: 60px;
+   display: flex;
+   flex-direction: row;
+   
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -931,15 +946,15 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
-   color: #303030;
+   padding-top: 25px;
+   margin-bottom: 20px;
+   color: #e4e4e4;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #F06000; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
