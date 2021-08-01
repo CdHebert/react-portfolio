@@ -1,28 +1,31 @@
 import React from "react";
+import DownloadLink from "react-download-link"
 
 const About = ({ aboutMe }) => (
   <section id="about">
   <div className="row">
+     <div className="nine columns main-col background">
+        <h1>About Me</h1>
      <div className="three columns">
-        <img className="profile-pic"  src={aboutMe.image} alt="Tim Baker Profile Pic" />
+        <img className="profile-pic"  src={aboutMe.image} alt="Cody Hebert Picture" />
      </div>
-     <div className="nine columns main-col">
-        <h2>About Me</h2>
 
         <p>{aboutMe.bio}</p>
         <div className="row">
+           <hr />
            <div className="columns contact-details">
               <h2>Contact Details</h2>
               <p className="address">
            <span>{aboutMe.name}</span><br />
            <br />
-           <span>{aboutMe.phone}</span><br />
-                 <span>{aboutMe.email}</span>
+                <a href="mailto:chebert222@gmail.com">
+                   <span>{aboutMe.email}</span>
+                   </a> 
          </p>
            </div>
            <div className="columns download">
               <p>
-                 <a href={aboutMe.resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                 <a href={aboutMe.resume} className="button"><i className="fa fa-download"></i>Resume</a>
               </p>
            </div>
         </div>

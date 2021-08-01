@@ -3,7 +3,7 @@ import React from 'react';
 const Works = ({ portfolio }) => {
 
     const challenges = portfolio.projects.map(project => {
-        const projectImg = `images/portfolio/${project.image}`;
+        const projectImg = `${project.image}`;
         return <div key={project.title} className="columns portfolio-item">
            <div className="item-wrap">
             <a href={project.url} title={project.title}>
@@ -13,9 +13,10 @@ const Works = ({ portfolio }) => {
                  <h5>{project.title}</h5>
                      <p>{project.category}</p>
                   </div>
+          <div className="link-icon"><i className="fa fa-link"></i></div>
                 </div>
-              <div className="link-icon"><i className="fa fa-link"></i></div>
             </a>
+          <a href={project.git}><div className="git-icon"><i className="fab fa-github"></i></div></a>
           </div>
         </div>
     })

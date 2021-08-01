@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import Resume from './components/pages/Resume';
+import Skills from './components/pages/Skills';
 import Works from './components/pages/Works';
 import Contact from './components/pages/Contact';
 import './App.css';
@@ -27,8 +27,8 @@ function App() {
     switch (currentPage) {
       case 'About':
         return <About aboutMe={aboutMe} />;
-      case 'Resume':
-        return <Resume />;
+      case 'Skills':
+        return <Skills />;
       case 'Works':
         return <Works portfolio={portfolio} />;
       case 'Contact':

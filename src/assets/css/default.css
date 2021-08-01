@@ -28,7 +28,7 @@ e. Others
 
 @import url("fonts.css");
 @import url("fontello/css/fontello.css");
-@import url("font-awesome/css/font-awesome.min.css");
+/* @import url("font-awesome/css/font-awesome.min.css"); */
 
 /* ------------------------------------------------------------------
 /* b. Reset
@@ -157,6 +157,10 @@ body {
 /*  2. Typography
        Vertical rhythm with leading derived from 6
 --------------------------------------------------------------------- */
+.color-header {
+   color: #fff;
+   font-family: 'Domine', serif;
+}
 
 h1, h2, h3, h4, h5, h6 {
    color: #ffffff;
@@ -527,7 +531,15 @@ input::-moz-focus-inner {
 
 /*  7. Forms  --------------------------------------------------------- */
 
-form { margin-bottom: 24px; }
+form {
+   margin-bottom: 24px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+ }
 fieldset { margin-bottom: 24px; }
 
 input[type="text"],
@@ -597,6 +609,12 @@ input[type="checkbox"] { display: inline; }
    width: 96%;
    max-width: 1020px;
    margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
 }
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
@@ -637,7 +655,7 @@ input[type="checkbox"] { display: inline; }
 /* column widths */
 .row .one         { width: 8.33333%; }
 .row .two         { width: 16.66667%; }
-.row .three       { width: 25%; }
+.row .three       { width: 15%; }
 .row .four        { width: 33.33333%; }
 .row .five        { width: 41.66667%; }
 .row .six         { width: 50%; }
