@@ -1,4 +1,4 @@
-import { Resume } from './assets/images/Resume';
+
 import {
   profilePic,
   budgeter,

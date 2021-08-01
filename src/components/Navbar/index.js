@@ -16,9 +16,7 @@ const Navbar = (props) => {
                                 // Whenever a tab is clicked on,
                                 // the current page is set through the handlePageChange props.
                                 onClick={() => props.handlePageChange(tab)}
-                                className={
-                                    props.currentPage === tab ? 'nav-link active' : 'nav-link'
-                                }
+                                className={ props.currentPage === tab ? 'nav-link active' : 'nav-link'}
                             >
                                 {tab}
                             </a>

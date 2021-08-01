@@ -1,5 +1,5 @@
 import React from "react";
-import DownloadLink from "react-download-link"
+
 
 const About = ({ aboutMe }) => (
   <section id="about">
@@ -7,7 +7,7 @@ const About = ({ aboutMe }) => (
      <div className="nine columns main-col background">
         <h1>About Me</h1>
      <div className="three columns">
-        <img className="profile-pic"  src={aboutMe.image} alt="Cody Hebert Picture" />
+        <img className="profile-pic"  src={aboutMe.image} alt="Cody Hebert" />
      </div>
 
         <p>{aboutMe.bio}</p>
