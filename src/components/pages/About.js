@@ -18,8 +18,8 @@ const About = ({ aboutMe }) => (
               <p className="address">
            <span>{aboutMe.name}</span><br />
            <br />
-                <a href="mailto:chebert222@gmail.com">
-                   <span>{aboutMe.email}</span>
+                <a href="mailto:chebert222@gmail.com" className="hvr-icon-down">
+                   <span><i className="fa fa-arrow-circle-o-down hvr-icon"></i>{aboutMe.email}</span>
                    </a> 
          </p>
            </div>

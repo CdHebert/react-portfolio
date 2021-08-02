@@ -17,8 +17,8 @@ export const aboutMe = {
   occupation: "(Your Occupation Here)",
   description: "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
   image: profilePic,
-  bio: `I am currently a student enrolled in the University of Arizona Coding Bootcamp for full stack development. I am so glad I had this opportunity because it helped me discover just how much I love coding. I think it's amazing to be able to create something from the ground up and learn new things everyday as you work. It gives me such an incredible feeling of accomplishment to create something new, and being able to see people enjoy actually enjoy it and use it. I've loved working in groups because it really helps to get different perspectives and positive feedback.
-    With my skill set I could easily work as a front-end developer or a back-end developer, they are both incredibly interesting to me. I know I will always find something to enjoy when I am working with coding.`,
+  bio: `I am currently a student enrolled in the University of Arizona Coding Bootcamp for full stack development. I am so glad I had this opportunity because it helped me discover just how much I love coding. I think it's amazing to be able to create something from the ground up and learn new things everyday as you work. It gives me such an incredible feeling of accomplishment to create something new, and being able to see people actually enjoy using it. I've loved working in groups because it really helps to get different perspectives and feedback.
+    With my skill set I could easily work as a front-end, back-end or even a full stack developer as they are all incredibly interesting to me. I know I will always find something to enjoy when I am working with coding.`,
   github: "https://github.com/CdHebert",
   email: "chebert222@gmail.com",
 
