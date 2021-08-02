@@ -35,6 +35,7 @@ function Contact() {
 
   return (
     <section className='app-header'>
+      <h5>Contact form is Currently Not working please use my Email or any other link</h5>
       <hr />
       <h1 data-testid="h1tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>

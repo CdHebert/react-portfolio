@@ -24,6 +24,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-header h5 {
+  color: #970000;
+}
 
 .App-link {
   color: #61dafb;
