@@ -6,6 +6,7 @@ import notes from './notes.jpg';
 import roles from './role-call.jpg';
 import workDay from './work-day.jpg';
 import profilePic from './profilepic.jpg';
+import cupidLol from './cupidLol.png'
 
 export {
     crypto,
@@ -15,5 +16,6 @@ export {
     notes,
     roles,
     workDay,
-    profilePic
+    profilePic,
+    cupidLol
 }

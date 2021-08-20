@@ -7,7 +7,8 @@ import {
   crypto,
   heroBlog,
   workDay,
-  roles
+  roles,
+  cupidLol
 } from "./assets/images/portfolio"
 
 
@@ -17,13 +18,13 @@ export const aboutMe = {
   occupation: "(Your Occupation Here)",
   description: "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
   image: profilePic,
-  bio: `I am currently a student enrolled in the University of Arizona Coding Bootcamp for full stack development. I am so glad I had this opportunity because it helped me discover just how much I love coding. I think it's amazing to be able to create something from the ground up and learn new things everyday as you work. It gives me such an incredible feeling of accomplishment to create something new, and being able to see people actually enjoy using it. I've loved working in groups because it really helps to get different perspectives and feedback.
-    With my skill set I could easily work as a front-end, back-end or even a full stack developer as they are all incredibly interesting to me. I know I will always find something to enjoy when I am working with coding.`,
+  bio: `I'm A Full Stack Developer that has a wide range of experience in many different technologies. I Attended the University of Arizona Bootcamp, where I received a Certificate in full stack development and learned many languages, tools, and applications to make powerful websites.`,
   github: "https://github.com/CdHebert",
   email: "chebert222@gmail.com",
 
   website: "http://www.timbakerdev.com",
-  resume: "https://www.canva.com/design/DAEkTNPl9sw/Kyc9njbwB7JmmnJUaidORA/view?utm_content=DAEkTNPl9sw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+  //resume: "https://www.canva.com/design/DAEkTNPl9sw/Kyc9njbwB7JmmnJUaidORA/view?utm_content=DAEkTNPl9sw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+  resume: "./Resume.pdf"
 
 }
 
@@ -61,6 +62,13 @@ export const socialMedia = {
 
 export const portfolio = {
   projects: [
+    {
+      title: "CupidLOL - Friend finder for the second most popular game in the world League of Legends",
+      category: " A Full Stack MERN application utilizing GraphQL, Socket.io, and the RIOT API to build a place where League of Legends players can log in and meet other players.  Players can create character builds, add other users as friends, and chat with the community.",
+      image: cupidLol,
+      url: "https://duolol.herokuapp.com/",
+      git: "https://github.com/jbryant4/duoLOL"
+    },
     {
       title: "Benefactor - A Gift List application where you can make a list for every occation",
       category: "Full Stack application that Uses HTML, JavaScript, CSS, Sass, Fontawesome, mySQL, Express and Handlebars",

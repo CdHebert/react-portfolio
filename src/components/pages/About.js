@@ -25,7 +25,7 @@ const About = ({ aboutMe }) => (
            </div>
            <div className="columns download">
               <p>
-                 <a href={aboutMe.resume} className="button"><i className="fa fa-download"></i>Resume</a>
+                 <a href={aboutMe.resume} className="button" download><i className="fa fa-download"></i>Resume</a>
               </p>
            </div>
         </div>
