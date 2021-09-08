@@ -80,7 +80,7 @@ export const portfolio = {
       title: "Note Taker - A app where you can make notes edit what you said and delete those notes",
       category: "Using Restful api's to build CRUD routes that handle all the notes",
       image: notes,
-      url: "https://floating-sands-82311.herokuapp.com/",
+      url: "https://notetakerofnotes.herokuapp.com/",
       git: "https://github.com/CdHebert/note-taker"
     },
     {
@@ -101,7 +101,7 @@ export const portfolio = {
       title: "Hero Blog - Is a blog based off of the anime One Punch Man",
       category: "Full Stack application that Uses HTML, JavaScript, CSS, Sass, Fontawesome, mySQL, Express and Handlebars",
       image: heroBlog,
-      url: "https://polar-dusk-68607.herokuapp.com/",
+      url: "https://heroblogpunch.herokuapp.com/",
       git: "https://github.com/CdHebert/hero-blog"
     },
     {
