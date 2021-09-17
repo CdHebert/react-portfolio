@@ -70,6 +70,13 @@ export const portfolio = {
       git: "https://github.com/jbryant4/duoLOL"
     },
     {
+      title: "GT Environmental - ReactJs front-end application created for contact and general information.",
+      category: "Front-End Uses ReactJs, CSS, Fontawesome and MaterialUI",
+      image: "/images/gtenviro.png",
+      url: "https://gtenviromentalaz.netlify.app/",
+      git: "https://github.com/CdHebert/gt-environmental"
+    },
+    {
       title: "Benefactor - A Gift List application where you can make a list for every occation",
       category: "Full Stack application that Uses HTML, JavaScript, CSS, Sass, Fontawesome, mySQL, Express and Handlebars",
       image: benefactor,
